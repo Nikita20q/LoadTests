@@ -33,7 +33,7 @@
           <stringProp name="HTTPSampler.implementation">HttpClient4</stringProp>
         </ConfigTestElement>
         <hashTree/>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Constellation Scenario" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Constellation Scenario">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
         <hashTree>
@@ -48,7 +48,7 @@
             </elementProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST Create Constellation" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST Create Constellation">
             <stringProp name="HTTPSampler.port">8080</stringProp>
             <stringProp name="HTTPSampler.path">/api/constellations</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
@@ -59,7 +59,7 @@
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{ &quot;name&quot;: &quot;Test-Const-${__time(yyyyMMddHHmmss)}-${__Random(1,1000)}&quot; }</stringProp>
+                  <stringProp name="Argument.value">{ &quot;name&quot;: &quot;Test-Const-${__time(yyyyMMddHHmmss)}-${__Random(1,1000000)}&quot; }</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -85,7 +85,7 @@
             </elementProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST Create Satellite" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="POST Create Satellite">
             <stringProp name="HTTPSampler.path">/api/satellites</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
@@ -97,7 +97,7 @@
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
                   <stringProp name="Argument.value">{&#xd;
   &quot;type&quot;: &quot;IMAGE&quot;,&#xd;
-  &quot;name&quot;: &quot;Test-Sat-${__time(yyyyMMddHHmmss)}-${__Random(1,1000)}&quot;,&#xd;
+  &quot;name&quot;: &quot;Test-Sat-${__time(yyyyMMddHHmmss)}-${__Random(1,1000000)}&quot;,&#xd;
   &quot;batteryLevel&quot;: 100.0,&#xd;
   &quot;resolution&quot;: 0.5&#xd;
 }</stringProp>
@@ -195,7 +195,7 @@
           </collectionProp>
         </HeaderManager>
         <hashTree/>
-        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report">
+        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
