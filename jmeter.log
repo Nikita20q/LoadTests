@@ -1,0 +1,109 @@
+2026-06-10 11:24:58,739 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-06-10 11:24:58,751 INFO o.a.j.JMeter: Loading user properties from: /opt/jmeter/bin/user.properties
+2026-06-10 11:24:58,751 INFO o.a.j.JMeter: Loading system properties from: /opt/jmeter/bin/system.properties
+2026-06-10 11:24:58,754 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-06-10 11:24:58,755 INFO o.a.j.JMeter: Version 5.6.3
+2026-06-10 11:24:58,755 INFO o.a.j.JMeter: java.version=21.0.11
+2026-06-10 11:24:58,755 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-06-10 11:24:58,755 INFO o.a.j.JMeter: os.name=Linux
+2026-06-10 11:24:58,755 INFO o.a.j.JMeter: os.arch=amd64
+2026-06-10 11:24:58,755 INFO o.a.j.JMeter: os.version=6.14.0-37-generic
+2026-06-10 11:24:58,755 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-06-10 11:24:58,755 INFO o.a.j.JMeter: java.awt.headless=true
+2026-06-10 11:24:58,755 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-06-10 11:24:58,755 INFO o.a.j.JMeter: Available Processors =12
+2026-06-10 11:24:58,761 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-06-10 11:24:58,761 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-06-10 11:24:58,761 INFO o.a.j.JMeter: JMeterHome=/opt/jmeter
+2026-06-10 11:24:58,761 INFO o.a.j.JMeter: user.dir  =/home/nikita/MyProjects/MGTU/Sattelites/LoadTests
+2026-06-10 11:24:58,761 INFO o.a.j.JMeter: PWD       =/home/nikita/MyProjects/MGTU/Sattelites/LoadTests
+2026-06-10 11:24:58,761 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: nikita-Katana-GF76-11UC FullName: nikita-Katana-GF76-11UC
+2026-06-10 11:24:58,769 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/nikita/MyProjects/MGTU/Sattelites/LoadTests/jmeter-report'
+2026-06-10 11:24:58,771 INFO o.a.j.s.FileServer: Default base='/home/nikita/MyProjects/MGTU/Sattelites/LoadTests'
+2026-06-10 11:24:58,772 INFO o.a.j.s.FileServer: Set new base='/home/nikita/MyProjects/MGTU/Sattelites/LoadTests'
+2026-06-10 11:24:58,892 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-06-10 11:24:58,909 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-06-10 11:24:58,910 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-06-10 11:24:58,913 INFO o.a.j.s.SaveService: Loading file: satellite_load_test.jmx
+2026-06-10 11:24:58,949 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-06-10 11:24:58,950 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-06-10 11:24:58,950 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-06-10 11:24:58,950 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-06-10 11:24:58,950 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-06-10 11:24:58,950 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-06-10 11:24:58,974 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-06-10 11:24:58,976 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-06-10 11:24:58,976 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: results.jtl
+2026-06-10 11:24:58,976 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/jmeter/bin/reportgenerator.properties
+2026-06-10 11:24:58,979 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-06-10 11:24:58,982 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-06-10 11:24:58,983 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-06-10 11:24:58,984 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-06-10 11:24:58,984 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-06-10 11:24:58,984 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2026-06-10 11:24:58,984 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-06-10 11:24:58,984 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-06-10 11:24:58,984 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-06-10 11:24:58,984 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-06-10 11:24:58,987 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-06-10 11:24:58,987 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-06-10 11:24:58,987 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-06-10 11:24:58,987 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-06-10 11:24:58,987 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-06-10 11:24:58,987 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-06-10 11:24:58,987 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-06-10 11:24:58,987 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-06-10 11:24:58,988 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-06-10 11:24:58,988 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-06-10 11:24:58,988 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-06-10 11:24:58,988 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-06-10 11:24:58,988 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-06-10 11:24:58,988 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-06-10 11:24:58,989 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-06-10 11:24:58,989 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-06-10 11:24:58,996 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-06-10 11:24:58,996 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-06-10 11:24:58,997 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-06-10 11:24:59,000 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-06-10 11:24:59,000 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-06-10 11:24:59,046 INFO o.a.j.JMeter: Running test (1781079899046)
+2026-06-10 11:24:59,058 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2026-06-10 11:24:59,058 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Thread Group.
+2026-06-10 11:24:59,059 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-06-10 11:24:59,059 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=30 delayedStart=false
+2026-06-10 11:24:59,065 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-06-10 11:24:59,065 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-06-10 11:24:59,065 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-06-10 11:24:59,065 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-06-10 11:24:59,066 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2026-06-10 11:24:59,081 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = nikita-Katana-GF76-11UC
+2026-06-10 11:24:59,083 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-06-10 11:24:59,083 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-06-10 11:24:59,088 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-06-10 11:24:59,663 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2026-06-10 11:25:00,263 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2026-06-10 11:25:00,862 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2026-06-10 11:25:01,461 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2026-06-10 11:25:02,061 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2026-06-10 11:25:02,659 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2026-06-10 11:25:03,260 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2026-06-10 11:25:03,860 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2026-06-10 11:25:04,460 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2026-06-10 11:25:05,061 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2026-06-10 11:25:05,659 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2026-06-10 11:25:06,260 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2026-06-10 11:25:06,861 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2026-06-10 11:25:07,460 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2026-06-10 11:25:08,059 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2026-06-10 11:25:08,660 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2026-06-10 11:25:09,260 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2026-06-10 11:25:09,860 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2026-06-10 11:25:10,460 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2026-06-10 11:25:11,059 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2026-06-10 11:25:11,661 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2026-06-10 11:25:12,260 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2026-06-10 11:25:12,859 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2026-06-10 11:25:13,460 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2026-06-10 11:25:14,061 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2026-06-10 11:25:14,660 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2026-06-10 11:25:15,260 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-

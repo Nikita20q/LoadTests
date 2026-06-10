@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package seminars;
+
+service TelemetryService {
+  rpc StreamTelemetry (TelemetryRequest) returns (stream TelemetryUpdate);
+}
+
+message TelemetryRequest {
+}
+
+message TelemetryUpdate{
+  int64 satellite_id = 1;
+  double temperature_inside = 2;
+  double temperature_outside = 3;
+  int64 timestamp = 4;
+}
